@@ -1,0 +1,504 @@
+{
+    "name": "NextJS v12 Docs",
+    "description": "Malta is a CLI generated NextJS v12 docs",
+    "domain": "link here",
+    "sidebar": [
+        {
+            "title": "Documentation",
+            "pages": [
+                [
+                    "Getting Started",
+                    "/getting-started"
+                ],
+                [
+                    "Pages",
+                    "/basic-features/pages"
+                ],
+                [
+                    "Going to Production",
+                    "/going-to-production"
+                ],
+                [
+                    "Deployment",
+                    "/deployment"
+                ],
+                [
+                    "Authentication",
+                    "/authentication"
+                ],
+                [
+                    "Testing",
+                    "/testing"
+                ],
+                [
+                    "Accessibility",
+                    "/accessibility"
+                ],
+                [
+                    "Building Forms",
+                    "/guides/building-forms"
+                ]
+            ]
+        },
+        {
+            "title": "Data Fetching",
+            "pages": [
+                [
+                    "Overview",
+                    "/basic-features/data-fetching/overview"
+                ],
+                [
+                    "getServerSideProps",
+                    "/basic-features/data-fetching/get-server-side-props"
+                ],
+                [
+                    "getStaticPaths",
+                    "/basic-features/data-fetching/get-static-paths"
+                ],
+                [
+                    "getStaticProps",
+                    "/basic-features/data-fetching/get-static-props"
+                ],
+                [
+                    "Incremental Static Regeneration",
+                    "/basic-features/data-fetching/incremental-static-regeneration"
+                ],
+                [
+                    "Client side",
+                    "/basic-features/data-fetching/client-side"
+                ],
+                [
+                    "Upgrade Guide",
+                    "/upgrading"
+                ],
+                [
+                    "Incrementally Adopting Next.js",
+                    "/migrating/incremental-adoption"
+                ],
+                [
+                    "Migrating from Gatsby",
+                    "/migrating/from-gatsby"
+                ],
+                [
+                    "Migrating from Create React App",
+                    "/migrating/from-create-react-app"
+                ],
+                [
+                    "Migrating from React Router",
+                    "/migrating/from-react-router"
+                ],
+                [
+                    "FAQ",
+                    "/faq"
+                ]
+            ]
+        },
+        {
+            "title": "Basic Features",
+            "pages": [
+                [
+                    "Built-in CSS Support",
+                    "/basic-features/built-in-css-support"
+                ],
+                [
+                    "Layouts",
+                    "/basic-features/layouts"
+                ],
+                [
+                    "Image Optimization",
+                    "/basic-features/image-optimization"
+                ],
+                [
+                    "Font Optimization",
+                    "/basic-features/font-optimization"
+                ],
+                [
+                    "Static File Serving",
+                    "/basic-features/static-file-serving"
+                ],
+                [
+                    "Fast Refresh",
+                    "/basic-features/fast-refresh"
+                ],
+                [
+                    "ESLint",
+                    "/basic-features/eslint"
+                ],
+                [
+                    "TypeScript",
+                    "/basic-features/typescript"
+                ],
+                [
+                    "Environment Variables",
+                    "/basic-features/environment-variables"
+                ],
+                [
+                    "Supported Browsers and Features",
+                    "/basic-features/supported-browsers-features"
+                ],
+                [
+                    "Handling Scripts",
+                    "/basic-features/script"
+                ]
+            ]
+        },
+        {
+            "title": "Routing",
+            "pages": [
+                [
+                    "Introduction",
+                    "/routing/introduction"
+                ],
+                [
+                    "Dynamic Routes",
+                    "/routing/dynamic-routes"
+                ],
+                [
+                    "Imperatively",
+                    "/routing/imperatively"
+                ],
+                [
+                    "Shallow Routing",
+                    "/routing/shallow-routing"
+                ]
+            ]
+        },
+        {
+            "title": "API Routes",
+            "pages": [
+                [
+                    "Introduction",
+                    "/api-routes/introduction"
+                ],
+                [
+                    "Dynamic API Routes",
+                    "/api-routes/dynamic-api-routes"
+                ],
+                [
+                    "Request Helpers",
+                    "/api-routes/request-helpers"
+                ],
+                [
+                    "Response Helpers",
+                    "/api-routes/response-helpers"
+                ],
+                [
+                    "Edge API Routes (Beta)",
+                    "/api-routes/edge-api-routes"
+                ]
+            ]
+        },
+        {
+            "title": "Advanced Features",
+            "pages": [
+                [
+                    "Next.js Compiler",
+                    "/advanced-features/compiler"
+                ],
+                [
+                    "Preview Mode",
+                    "/advanced-features/preview-mode"
+                ],
+                [
+                    "Dynamic Import",
+                    "/advanced-features/dynamic-import"
+                ],
+                [
+                    "Automatic Static Optimization",
+                    "/advanced-features/automatic-static-optimization"
+                ],
+                [
+                    "Static HTML Export",
+                    "/advanced-features/static-html-export"
+                ],
+                [
+                    "Absolute Imports and Module Path Aliases",
+                    "/advanced-features/module-path-aliases"
+                ],
+                [
+                    "Using MDX",
+                    "/advanced-features/using-mdx"
+                ],
+                [
+                    "AMP Support",
+                    "/advanced-features/amp-support/introduction"
+                ],
+                [
+                    "Adding AMP Components",
+                    "/advanced-features/amp-support/adding-amp-components"
+                ],
+                [
+                    "AMP Validation",
+                    "/advanced-features/amp-support/amp-validation"
+                ],
+                [
+                    "AMP in Static HTML export",
+                    "/advanced-features/amp-support/amp-in-static-html-export"
+                ],
+                [
+                    "TypeScript",
+                    "/advanced-features/amp-support/typescript"
+                ],
+                [
+                    "Customizing Babel Config",
+                    "/advanced-features/customizing-babel-config"
+                ],
+                [
+                    "Customizing PostCSS Config",
+                    "/advanced-features/customizing-postcss-config"
+                ],
+                [
+                    "Custom Server",
+                    "/advanced-features/custom-server"
+                ],
+                [
+                    "Custom `App`",
+                    "/advanced-features/custom-app"
+                ],
+                [
+                    "Custom `Document`",
+                    "/advanced-features/custom-document"
+                ],
+                [
+                    "Custom Error Page",
+                    "/advanced-features/custom-error-page"
+                ],
+                [
+                    "`src` Directory",
+                    "/advanced-features/src-directory"
+                ],
+                [
+                    "CI Build Caching",
+                    "/advanced-features/ci-build-caching"
+                ],
+                [
+                    "Multi Zones",
+                    "/advanced-features/multi-zones"
+                ],
+                [
+                    "Measuring performance",
+                    "/advanced-features/measuring-performance"
+                ],
+                [
+                    "Middleware",
+                    "/advanced-features/middleware"
+                ],
+                [
+                    "Debugging",
+                    "/advanced-features/debugging"
+                ],
+                [
+                    "Error Handling",
+                    "/advanced-features/error-handling"
+                ],
+                [
+                    "Source Maps",
+                    "/advanced-features/source-maps"
+                ],
+                [
+                    "Codemods",
+                    "/advanced-features/codemods"
+                ],
+                [
+                    "Internationalized Routing",
+                    "/advanced-features/i18n-routing"
+                ],
+                [
+                    "Output File Tracing",
+                    "/advanced-features/output-file-tracing"
+                ],
+                [
+                    "Security Headers",
+                    "/advanced-features/security-headers"
+                ]
+            ]
+        },
+        {
+            "title": "React 18",
+            "pages": [
+                [
+                    "Overview",
+                    "/advanced-features/react-18/overview"
+                ],
+                [
+                    "Streaming SSR",
+                    "/advanced-features/react-18/streaming"
+                ],
+                [
+                    "React Server Components",
+                    "/advanced-features/react-18/server-components"
+                ],
+                [
+                    "Switchable Runtime",
+                    "/advanced-features/react-18/switchable-runtime"
+                ]
+            ]
+        },
+        {
+            "title": "API Reference",
+            "pages": [
+                [
+                    "CLI",
+                    "/api-reference/cli"
+                ],
+                [
+                    "Create Next App",
+                    "/api-reference/create-next-app"
+                ],
+                [
+                    "next/router",
+                    "/api-reference/next/router"
+                ],
+                [
+                    "next/link",
+                    "/api-reference/next/link"
+                ],
+                [
+                    "next/image",
+                    "/api-reference/next/image"
+                ],
+                [
+                    "next/script",
+                    "/api-reference/next/script"
+                ],
+                [
+                    "next/head",
+                    "/api-reference/next/head"
+                ],
+                [
+                    "next/amp",
+                    "/api-reference/next/amp"
+                ],
+                [
+                    "next/server",
+                    "/api-reference/next/server"
+                ],
+                [
+                    "next/future/image",
+                    "/api-reference/next/future/image"
+                ],
+                [
+                    "Edge Runtime",
+                    "/api-reference/edge-runtime"
+                ],
+                [
+                    "getInitialProps",
+                    "/api-reference/data-fetching/get-initial-props"
+                ],
+                [
+                    "getServerSideProps",
+                    "/api-reference/data-fetching/get-server-side-props"
+                ],
+                [
+                    "getStaticPaths",
+                    "/api-reference/data-fetching/get-static-paths"
+                ],
+                [
+                    "getStaticProps",
+                    "/api-reference/data-fetching/get-static-props"
+                ],
+                [
+                    "Static Optimization Indicator",
+                    "/api-reference/next.config.js/static-optimization-indicator"
+                ],
+                [
+                    "Next Config Introduction",
+                    "/api-reference/next.config.js/introduction"
+                ],
+                [
+                    "Environment Variables",
+                    "/api-reference/next.config.js/environment-variables"
+                ],
+                [
+                    "Base Path",
+                    "/api-reference/next.config.js/basepath"
+                ],
+                [
+                    "Rewrites",
+                    "/api-reference/next.config.js/rewrites"
+                ],
+                [
+                    "Redirects",
+                    "/api-reference/next.config.js/redirects"
+                ],
+                [
+                    "Custom Headers",
+                    "/api-reference/next.config.js/headers"
+                ],
+                [
+                    "Custom Page Extensions",
+                    "/api-reference/next.config.js/custom-page-extensions"
+                ],
+                [
+                    "CDN Support with Asset Prefix",
+                    "/api-reference/next.config.js/cdn-support-with-asset-prefix"
+                ],
+                [
+                    "Custom Webpack Config",
+                    "/api-reference/next.config.js/custom-webpack-config"
+                ],
+                [
+                    "Compression",
+                    "/api-reference/next.config.js/compression"
+                ],
+                [
+                    "Runtime Configuration",
+                    "/api-reference/next.config.js/runtime-configuration"
+                ],
+                [
+                    "Disabling x-powered-by",
+                    "/api-reference/next.config.js/disabling-x-powered-by"
+                ],
+                [
+                    "Disabling ETag Generation",
+                    "/api-reference/next.config.js/disabling-etag-generation"
+                ],
+                [
+                    "Disabling HTTP Keep-Alive",
+                    "/api-reference/next.config.js/disabling-http-keep-alive"
+                ],
+                [
+                    "Setting a custom build directory",
+                    "/api-reference/next.config.js/setting-a-custom-build-directory"
+                ],
+                [
+                    "Configuring the Build ID",
+                    "/api-reference/next.config.js/configuring-the-build-id"
+                ],
+                [
+                    "Configuring onDemandEntries",
+                    "/api-reference/next.config.js/configuring-onDemandEntries"
+                ],
+                [
+                    "Ignoring ESLint",
+                    "/api-reference/next.config.js/ignoring-eslint"
+                ],
+                [
+                    "Ignoring TypeScript Errors",
+                    "/api-reference/next.config.js/ignoring-typescript-errors"
+                ],
+                [
+                    "exportPathMap",
+                    "/api-reference/next.config.js/exportPathMap"
+                ],
+                [
+                    "Trailing Slash",
+                    "/api-reference/next.config.js/trailing-slash"
+                ],
+                [
+                    "React Strict Mode",
+                    "/api-reference/next.config.js/react-strict-mode"
+                ],
+                [
+                    "URL Imports",
+                    "/api-reference/next.config.js/url-imports"
+                ],
+                [
+                    "Build indicator",
+                    "/api-reference/next.config.js/build-indicator"
+                ]
+            ]
+        }
+    ],
+    "asset_hashing": true
+}
